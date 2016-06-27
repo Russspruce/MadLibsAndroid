@@ -24,7 +24,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/locationEditText"
+        android:id="@+id/nameText"
         android:padding="5dp"
         android:hint="Name"
         android:layout_marginTop="28dp"
@@ -38,58 +38,58 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/nounText"
         android:padding="5dp"
         android:hint="Noun"
         android:layout_marginTop="28dp"
-        android:layout_below="@+id/locationEditText"
+        android:layout_below="@+id/nameText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/locationEditText"
-        android:layout_alignEnd="@+id/locationEditText"
+        android:layout_alignRight="@+id/nameText"
+        android:layout_alignEnd="@+id/nameText"
         android:background="@color/colorIcons" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
+        android:id="@+id/adjectiveText"
         android:padding="5dp"
         android:hint="Adjective"
         android:layout_marginTop="28dp"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/nounText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText"
+        android:layout_alignRight="@+id/nounText"
+        android:layout_alignEnd="@+id/nounText"
         android:background="@color/colorIcons"
         android:backgroundTint="@color/colorIcons" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText3"
+        android:id="@+id/verbText"
         android:padding="5dp"
         android:hint="Verb"
         android:layout_marginTop="28dp"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/adjectiveText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignRight="@+id/adjectiveText"
+        android:layout_alignEnd="@+id/adjectiveText"
         android:background="@color/colorIcons" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText4"
+        android:id="@+id/animalText"
         android:padding="5dp"
         android:hint="Animal"
         android:layout_marginTop="28dp"
-        android:layout_below="@+id/editText3"
+        android:layout_below="@+id/verbText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/editText3"
-        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignRight="@+id/verbText"
+        android:layout_alignEnd="@+id/verbText"
         android:background="@color/colorIcons" />
 
     <Button
